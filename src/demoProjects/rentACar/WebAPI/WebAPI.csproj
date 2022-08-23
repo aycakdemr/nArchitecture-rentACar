@@ -4,6 +4,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>a501ed62-50aa-49d0-b87f-58d823e71ea8</UserSecretsId>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -21,10 +22,6 @@
 		</PackageReference>
 			
   </ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="Controllers\" />
-	</ItemGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\Persistence\Persistence.csproj" />
